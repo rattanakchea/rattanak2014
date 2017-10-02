@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map'
 
 @Component({
   selector: 'app-work',
@@ -7,7 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
-  constructor() { }
+  projects = [];
+
+  constructor(http: Http) {
+    http.get('assets/data/myProjects.json')
+      .map(res => res.json())
+      .subscribe(projects => {
+        console.log(projects);
+        this.projects = projects
+      });
+  }
 
   ngOnInit() {
   }

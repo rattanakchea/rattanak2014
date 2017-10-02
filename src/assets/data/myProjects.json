@@ -2,7 +2,7 @@
     "id": "card-game",
     "slug": "card-games",
     "title": "Card Games",
-    "description": "Currently I have written two card games: Blackjack and Sikou. Needless to say, Blackjack is a popular card game. Sikou is the first Cambodian card game written in JavaScript. The project was written in a custom JavaScript MVC pattern. It was designed to make the code reusable and extensible to other Card game projects.",
+    "description": "This project includes two card games: Blackjack and Sikou. Needless to say, Blackjack is a well-known card game. Sikou is the first Cambodian card game written in JavaScript. The project was written in a custom JavaScript MVC pattern. It was designed to make the code reusable and extensible.",
     "dateCreated": "10/20/2016",
     "demo": "https://rattanakchea.github.io/cardgames/",
     "source": "https://github.com/rattanakchea/cardgames",

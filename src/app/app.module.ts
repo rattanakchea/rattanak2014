@@ -10,13 +10,17 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
 
+// shared
+import {  TruncatePipe }   from './shared/truncate.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     FooterComponent,
     HomeComponent,
-    WorkComponent
+    WorkComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,

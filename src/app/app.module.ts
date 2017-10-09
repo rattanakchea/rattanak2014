@@ -14,6 +14,9 @@ import { WorkComponent } from './work/work.component';
 import {  TruncatePipe }   from './shared/truncate.pipe';
 import { WorkDetailComponent } from './work-detail/work-detail.component';
 
+import { StoreService } from './services/store.service';
+import { ProjectItemComponent } from './project-item/project-item.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,8 @@ import { WorkDetailComponent } from './work-detail/work-detail.component';
     HomeComponent,
     WorkComponent,
     TruncatePipe,
-    WorkDetailComponent
+    WorkDetailComponent,
+    ProjectItemComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,7 @@ import { WorkDetailComponent } from './work-detail/work-detail.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [StoreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

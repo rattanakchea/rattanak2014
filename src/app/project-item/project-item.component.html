@@ -1,0 +1,20 @@
+<img class="card-img-top" src="{{item.image}}">
+<div class="card-body">
+  <h4 class="card-title">{{ item.title }}</h4>
+  <p>{{ item.description | limitTo: 60 }}</p>
+  <p>
+    <a [routerLink]="['/work/detail']" class="card-link">Read more</a>
+  </p>
+  <h4 class="text-right">
+    <span *ngIf="item.source">
+      <a href="{{item.source}}" target="_new">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    </span>
+    <span *ngIf="item.demo">
+      <a href="{{item.demo}}" target="_new">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+      </a>
+    </span>
+  </h4>
+</div>

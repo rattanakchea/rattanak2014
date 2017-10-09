@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { StoreService} from '../services/store.service'
+import { ProjectItemComponent } from '../project-item/project-item.component';
 
 @Component({
   selector: 'app-work-detail',
   templateUrl: './work-detail.component.html',
   styleUrls: ['./work-detail.component.sass']
 })
-export class WorkDetailComponent implements OnInit {
+export class WorkDetailComponent {
+  currentProject: any;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private storeService: StoreService) {
+    this.currentProject = this.storeService.currentProject;
   }
+
 
 }

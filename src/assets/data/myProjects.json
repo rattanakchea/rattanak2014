@@ -1,4 +1,14 @@
 [{
+  "id": "redbox",
+  "title": "Redbox Clone",
+  "description": "Angular4 to emulate Rebox dvd rental kiosk",
+  "dateCreated": "10/20/2016",
+  "demo": "https://rattanakchea.github.io/redbox-clone/",
+  "source": "https://github.com/rattanakchea/redbox-clone",
+  "image": "assets/images/web/redbox-clone.png",
+  "featured": true
+}, 
+  {
     "id": "card-game",
     "slug": "card-games",
     "title": "Card Games",

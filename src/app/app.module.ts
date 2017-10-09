@@ -16,6 +16,7 @@ import { WorkDetailComponent } from './work-detail/work-detail.component';
 
 import { StoreService } from './services/store.service';
 import { ProjectItemComponent } from './project-item/project-item.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectItemComponent } from './project-item/project-item.component';
     WorkComponent,
     TruncatePipe,
     WorkDetailComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

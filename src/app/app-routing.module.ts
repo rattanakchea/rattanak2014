@@ -5,7 +5,6 @@ import { WorkComponent } from './work/work.component';
 import { WorkDetailComponent } from './work-detail/work-detail.component';
 import { StoreService} from './services/store.service'
 
-
 const routes: Routes = [
   {
     path: '', component: HomeComponent

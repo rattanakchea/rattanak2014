@@ -9,6 +9,15 @@
     "image": "assets/images/web/cardgames.png",
     "type": "JavaScript",
     "featured": true
+  }, {
+    "slug": "khmer-tube",
+    "title": "Khmer Tube",
+    "description": "This single page application is built with Angular, JavaScript, Youtube API. The application targets Cambodian users who like to watch local news and entertainment.",
+    "dateCreated": "09/12/2015",
+    "demo": "http://rattanakchea.github.io/khmertubeapp/#/",
+    "source": "https://github.com/rattanakchea/khmertubeapp",
+    "image": "assets/images/web/khmertube.jpg",
+    "featured": true
   },
   {
     "id": "device-emulator",
@@ -36,15 +45,6 @@
     "dateCreated": "2/18/2015",
     "demo": "https://awesometodos.firebaseapp.com",
     "image": "assets/images/web/minitrello.png"
-  }, {
-    "slug": "khmer-tube",
-    "title": "Khmer Tube",
-    "description": "This single page application is built with Angular, JavaScript, Youtube API. The application targets Cambodian users who like to watch local news and entertainment.",
-    "dateCreated": "09/12/2015",
-    "demo": "http://rattanakchea.github.io/khmertubeapp/#/",
-    "source": "https://github.com/rattanakchea/khmertubeapp",
-    "image": "assets/images/web/khmertube.jpg",
-    "featured": true
   }, {
     "title": "Google Keep Clone",
     "description": "Google Keep Clone provides CRUD operations for note-taking. I used OOP PHP to build a web service supporting GET, POST, PUT, and UPDATE requests. For front end, I used Angular JS for tempting and using $http service to manage requests. The MaterializeCSS framework provides modern, beautiful interface. By separating server, client and database layer, the business logic can be separated from presentation. This allows me to extend applications or build mobile application in the future.",

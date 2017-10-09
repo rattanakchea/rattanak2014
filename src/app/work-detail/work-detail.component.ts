@@ -11,7 +11,12 @@ export class WorkDetailComponent {
   currentProject: any;
 
   constructor(private storeService: StoreService) {
+    console.log('constructor');
     this.currentProject = this.storeService.currentProject;
+  }
+
+  ngOnInit() {
+    console.log('init');
   }
 
 

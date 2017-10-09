@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 import { Router } from '@angular/router';
 import { ProjectItemComponent } from '../project-item/project-item.component';
-import 'rxjs/add/operator/map'
-import { StoreService} from '../services/store.service'
+import 'rxjs/add/operator/map';
+import { StoreService} from '../services/store.service';
 
 @Component({
   selector: 'app-work',
@@ -22,10 +22,4 @@ export class WorkComponent {
         this.projects = projects
       });
   }
-
-  gotoDetail(project) {
-    this.storeService.currentProject = project;
-    this.router.navigate([`/work/${project.id}`])
-  }
-
 }

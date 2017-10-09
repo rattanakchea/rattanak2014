@@ -12,6 +12,7 @@ import { WorkComponent } from './work/work.component';
 
 // shared
 import {  TruncatePipe }   from './shared/truncate.pipe';
+import { WorkDetailComponent } from './work-detail/work-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {  TruncatePipe }   from './shared/truncate.pipe';
     FooterComponent,
     HomeComponent,
     WorkComponent,
-    TruncatePipe
+    TruncatePipe,
+    WorkDetailComponent
   ],
   imports: [
     BrowserModule,

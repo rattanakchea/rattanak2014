@@ -15,11 +15,6 @@ export class WorkComponent {
   projects = [];
 
   constructor(http: Http, private storeService: StoreService, private router: Router) {
-    http.get('assets/data/myProjects.json')
-      .map(res => res.json())
-      .subscribe(projects => {
-        console.log(projects);
-        this.projects = projects
-      });
+    this.projects = this.storeService.projects;
   }
 }

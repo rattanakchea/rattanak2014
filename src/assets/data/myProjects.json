@@ -20,7 +20,7 @@
     "source": "https://github.com/rattanakchea/device-emulator",
     "image": "assets/images/web/device-emulator.png"
   }, {
-    "id": "a",
+    "id": "monopoly-checker",
     "slug": "monopoly-checker",
     "title": "Monopoly Checker",
     "description": "This application helps users keeping track of Monopoly tickets and their winning prize. It was built within 3 days. Technology: AngularJS, localStrage, JavaScript.",
@@ -29,7 +29,7 @@
     "source": "https://github.com/rattanakchea/monopolychecker",
     "image": "assets/images/web/monopolychecker.jpg"
   }, {
-    "id": 1,
+    "id": "mini-trello",
     "slug": "mini-trello",
     "title": "Mini Trello",
     "description": "Build a todo app in a day with Angular + Firebase with user email authentication. Tech: Angular, Firebase, Unit Testing, Jasmine, Grunt.",
@@ -41,7 +41,6 @@
     "title": "Khmer Tube",
     "description": "This single page application is built with Angular, JavaScript, Youtube API. The application targets Cambodian users who like to watch local news and entertainment.",
     "dateCreated": "09/12/2015",
-
     "demo": "http://rattanakchea.github.io/khmertubeapp/#/",
     "source": "https://github.com/rattanakchea/khmertubeapp",
     "image": "assets/images/web/khmertube.jpg",
@@ -49,7 +48,6 @@
   }, {
     "title": "Google Keep Clone",
     "description": "Google Keep Clone provides CRUD operations for note-taking. I used OOP PHP to build a web service supporting GET, POST, PUT, and UPDATE requests. For front end, I used Angular JS for tempting and using $http service to manage requests. The MaterializeCSS framework provides modern, beautiful interface. By separating server, client and database layer, the business logic can be separated from presentation. This allows me to extend applications or build mobile application in the future.",
-
     "demo": "http://note-taking.atwebpages.com/#",
     "source": "https://github.com/rattanakchea/google-keep-clone",
     "image": "assets/images/web/google-keep-clone.png"
@@ -89,7 +87,6 @@
     "id": 9,
     "title": "Hangman",
     "description": "Classic yet fun hangman game, guess a country or a movie actor",
-
     "demo": "http://rattanakchea.github.io/hangman/",
     "source": "https://github.com/rattanakchea/hangman",
     "image": "assets/images/web/hangman.png"

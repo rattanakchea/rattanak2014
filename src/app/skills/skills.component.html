@@ -1,0 +1,26 @@
+<section class="skills">
+  <div class="container">
+    <h2>Tech I work with</h2>
+    <div class="row">
+      <div class="col-xs-12">
+        <!-- {{skills.frontEnd | json}} -->
+        <span class="text-primary">Front End:</span>
+
+        <span *ngFor="let s of skills.frontEnd">
+          {{s}}
+        </span>
+        <br/>
+        <span class="text-success">Back End:</span>
+        <span *ngFor="let s of skills.backEnd">
+          {{s}}
+        </span>
+
+        <br />
+        <span class="text-warning">Database</span>
+        <button class="btn btn-warning">
+          SQL
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

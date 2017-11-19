@@ -18,6 +18,7 @@ import { StoreService } from './services/store.service';
 import { ProjectItemComponent } from './project-item/project-item.component';
 import { EducationComponent } from './education/education.component';
 import { ProjectItemLayout2Component } from './project-item-layout-2/project-item-layout-2.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProjectItemLayout2Component } from './project-item-layout-2/project-ite
     WorkDetailComponent,
     ProjectItemComponent,
     EducationComponent,
-    ProjectItemLayout2Component
+    ProjectItemLayout2Component,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

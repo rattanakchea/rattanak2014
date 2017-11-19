@@ -4,22 +4,27 @@
     <div class="row">
       <div class="col-xs-12">
         <!-- {{skills.frontEnd | json}} -->
-        <span class="text-primary">Front End:</span>
+        <button class="btn-primary">Front End</button>
 
         <span *ngFor="let s of skills.frontEnd">
           {{s}}
         </span>
         <br/>
-        <span class="text-success">Back End:</span>
-        <span *ngFor="let s of skills.backEnd">
+        <button class="btn-success">Back End</button>
+        <span class="text-success" *ngFor="let s of skills.backEnd">
+          {{s}}
+        </span>
+        <br/>
+        <button class="btn-info">Framework</button>
+        <span class="text-info" *ngFor="let s of skills.framework">
           {{s}}
         </span>
 
         <br />
-        <span class="text-warning">Database</span>
-        <button class="btn btn-warning">
-          SQL
-        </button>
+        <button class="btn-warning">Database</button>
+        <span *ngFor="let s of skills.database">
+            {{s}}
+          </span>
       </div>
     </div>
   </div>

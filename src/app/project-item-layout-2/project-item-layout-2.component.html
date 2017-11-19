@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-sm-6 col-xs-12">
+    <h4>{{item.title}}</h4>
+    <span *ngIf="item.source">
+      <a href="{{item.source}}" target="_new">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    </span>
+    <span *ngIf="item.demo">
+      <a href="{{item.demo}}" target="_new">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+      </a>
+    </span>
+    <p>{{ item.description }}</p>
+  </div>
+  <div class="col-sm-6 col-xs-12">
+    <img class="card-img-top" src="{{item.image}}">
+  </div>
+</div>

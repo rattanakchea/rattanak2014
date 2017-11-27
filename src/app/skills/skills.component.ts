@@ -6,21 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.sass']
 })
 export class SkillsComponent implements OnInit {
-  skills = {};
+  skills = {
+    frontEnd: ['HTML5', 'CSS3', 'JavaScript ES6', 'jQuery'],
+    backEnd: ['Java', 'Python', 'PHP', 'C#', 'Node.js'],
+    framework: ['Angular', 'React', 'ASP.net', 'Wordpress', 'Laravel', 'Ruby On Rails', 'ExpressJS'],
+    database: ['SQL', 'NoSQL'],
+    test: ['Jasmine', 'Mocha', 'JUnit']
+  }
 
   constructor() {
-
-    this.skills = {
-      frontEnd: ['HTML5', 'CSS3', 'JavaScript ES6', 'jQuery'],
-      backEnd: ['Java', 'Python', 'PHP', 'C#', 'Node.js'],
-      framework: ['Angular', 'React', 'ASP.net', 'Wordpress', 'Laravel', 'Ruby On Rails', 'ExpressJS'],
-      database: ['SQL', 'NoSQL'],
-      test: ['Jasmine', 'Mocha', 'JUnit']
-      
-    }
   }
 
   ngOnInit() {
+    
   }
 
 }
